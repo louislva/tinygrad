@@ -146,7 +146,7 @@ class Kernel:
   # white  -- reduce-late upcasted dim (self.upcast_in_mid_reduce_axes)
   # red    -- reduce loops
   #  *** self.upcasted
-  # purple -- reduce upcasted
+  # magenta -- reduce upcasted
   # yellow -- normal upcasted dimensions
   def colors(self) -> List[str]:
     # first non local non reduce dims are global (blue)
